@@ -1,0 +1,2 @@
+<?php
+echo file_get_contents("https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=YOUR_LASTFM_USERNAME&limit=1&api_key=YOUR_LASTFM_API_KEY&format=json");

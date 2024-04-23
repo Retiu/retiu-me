@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(to bottom right, #323312, #21330B, #0e302f);
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+img {
+    max-width: 90%;
+}
+
+.page {
+    width: 90vw;
+    max-width: 800px;
+    margin: 20px auto;
+    padding-top: 35px;
+}
+
+.panel {
+    padding: 20px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom right, #3E400D, #384037, #244040);
+    border-radius: 10px;
+}
+
+p {
+    margin: 8px 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* hovering over link */
+a:hover {
+    color: #d2ffff;
+}
+
+/* selected link */
+a:active {
+    color: #a2faaa;
+}
+
+
+.navbarlol {
+    /*    padding-top: 16px;
+    padding-bottom: 16px; */
+    z-index: 99 !important;
+}

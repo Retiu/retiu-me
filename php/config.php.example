@@ -1,0 +1,8 @@
+<?php
+define("DB_USER", "retiu_me");
+define("DB_PASSWORD", "PASSWORD");
+define("DB_NAME", "retiu_me");
+define("DB_HOSTNAME", "localhost");
+define("OAUTH_SECRET", "UNTONE_OUATH_SECRET");
+define("OAUTH_ID", "UNTONE_OAUTH_ID");
+define("OAUTH_REDIRECT_URL", "https://id.untone.uk/oauth/authorize?client_id=".OAUTH_ID."&redirect_uri=https://retiu.me/admin/auth.php");

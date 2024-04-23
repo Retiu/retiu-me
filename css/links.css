@@ -1,0 +1,61 @@
+.linkpanel {
+    padding: 20px;
+    margin-bottom: 10px;
+    background: linear-gradient(to bottom right, #3E400D, #384037, #244040);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.button {
+    padding: 25px;
+    margin-bottom: 5px;
+    background: #333;
+    width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.1s linear;
+}
+
+.button p {
+    margin-bottom: 0px;
+}
+
+.button:hover {
+    padding: 28px;
+    font-size: 22px;
+}
+
+
+h3 {
+    margin: 8px 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+}
+
+/* hovering over link */
+a:hover {
+    color: #d2ffff;
+}
+
+/* selected link */
+a:active {
+    color: #a2faaa;
+}
+
+.linktree-icon {
+    display: block;
+    width: 100px;
+    height: 82px;
+    background: url(../img/237854401-3a972a4f-fc47-4c60-bba1-80a040d8ef34.svg);
+    background-size: 100px 82px;
+}

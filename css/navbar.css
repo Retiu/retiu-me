@@ -1,0 +1,39 @@
+li {
+    display: inline;
+    float: left;
+    padding: 8px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 7px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background: linear-gradient(to bottom right, #3E400D, #384037, #244040);
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    position: fixed;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, #3E400D, #384037, #244040);
+}
+
+
+.active {
+    background-color: #07570d;
+}
+
