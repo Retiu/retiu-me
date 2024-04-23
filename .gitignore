@@ -1,6 +1,7 @@
 .well-known
 /php/config.php
 /sound/samples/*
+/music/*
 /upload/*
 /Nieuwe map/*
 /api/get_lastfm.php
